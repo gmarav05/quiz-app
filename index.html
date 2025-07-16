@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="quiz-app-bkg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Quiz me</h1>
+        <p>Let's test your knowledge.</p>
+
+        <div id="quiz">
+            <h2 id="question">Loading question</h2>
+            <ul id="answers"></ul>
+            <button id="nextBtn">Next question</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
